@@ -1,0 +1,2 @@
+"use strict";var $tableHeader=document.querySelector("thead"),$tableBody=document.querySelector("tbody"),$tableFooter=document.querySelector("tfoot");function cloneSecondColumnBeforeLast(e){var o=e.children,t=o[1];o[o.length-1].before(t.cloneNode(t))}cloneSecondColumnBeforeLast($tableHeader.firstElementChild),Array.from($tableBody.children).forEach(function(e){cloneSecondColumnBeforeLast(e)}),cloneSecondColumnBeforeLast($tableFooter.firstElementChild);
+//# sourceMappingURL=js_task_clone_table_column_DOM.a46a7c1f.js.map
