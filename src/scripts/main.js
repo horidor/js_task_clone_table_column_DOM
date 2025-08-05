@@ -10,7 +10,7 @@ function cloneSecondColumnBeforeLast(tableElement) {
   const secondColumn = elementChildren[1];
   const beforeLast = elementChildren[elementChildren.length - 1];
 
-  beforeLast.before(secondColumn.cloneNode(secondColumn));
+  beforeLast.before(secondColumn.cloneNode(true));
 }
 
 cloneSecondColumnBeforeLast($tableHeader.firstElementChild);
