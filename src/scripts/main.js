@@ -1,6 +1,5 @@
 'use strict';
 
-// write your code here
 const $tableHeader = document.querySelector('thead');
 const $tableBody = document.querySelector('tbody');
 const $tableFooter = document.querySelector('tfoot');
